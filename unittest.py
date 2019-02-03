@@ -14,5 +14,5 @@ class TestUM(unittest.TestCase):
     def test_strings_a_3(self):
         self.assertEqual( multiply('a',3), 'aaa')
  
-if _name_ == '_main_':
+if __name__ == '__main__':
     unittest.main()
